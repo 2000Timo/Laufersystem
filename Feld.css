@@ -6,6 +6,7 @@ feld{
     height: 45vw;
     margin-left: 19vw;
     margin-right: auto;
+    margin-bottom: 5vw;
 }
 
 feld > Linie{
