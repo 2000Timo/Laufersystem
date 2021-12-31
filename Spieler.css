@@ -1,0 +1,70 @@
+spieler{
+    width: 9%;
+    height: 12%;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0px;
+    background-color: rgb(116, 21, 21);
+}
+
+spieler > spielertext{
+    position: absolute;
+    top: 2vw;
+    left: 2vw;
+    text-align: center;
+    color: white;
+}
+
+spieler#zuspiel{
+    top: 78%;
+    left: 10%;
+    transition-duration: 2s;
+}
+
+spieler#außen1{
+    top: 78%;
+    left: 56%;
+    transition-duration: 2s;
+}
+
+spieler#mitte1{
+    top: 44%;
+    left: 56%;
+    transition-duration: 2s;
+}
+
+spieler#diagonal{
+    top: 10%;
+    left: 56%;
+    transition-duration: 2s;
+}
+
+spieler#außen2{
+    top: 10%;
+    left: 10%;
+    transition-duration: 2s;
+}
+
+spieler#mitte2{
+    top: 44%;
+    left: 10%;
+    transition-duration: 2s;
+}
+
+@keyframes zuspielLäuferEins {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(100%, 0%);
+    }
+  }
+
+@keyframes außen1LäuferEins {
+    0% {
+        transform: translate(0%, 0%);
+    }
+    100% {
+        transform: translate(-300%, -100%);
+    }
+  }
