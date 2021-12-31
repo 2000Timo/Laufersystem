@@ -1,0 +1,50 @@
+angriff{
+    width: 9%;
+    height: 12%;
+    border-radius: 50%;
+    position: absolute;
+    margin: 0px;
+    background-color: black;
+    cursor: pointer;
+}
+
+angriff#zwei{
+    top: 3%;
+    right: 10%;
+}
+
+angriff#drei{
+    top: 44%;
+    right: 10%;
+}
+
+angriff#vier{
+    top: 85%;
+    right: 10%;
+}
+
+angriff:hover{
+    background-color: rgb(56, 49, 49);
+}
+
+@media screen and (max-width: 850px) {
+    angriff{
+        width: 12%;
+        height: 9%;
+    }
+    angriff#zwei{
+        top: 14%;
+        left: 3%;
+    }
+    
+    angriff#drei{
+        top: 14%;
+        left: 44%;
+    }
+    
+    angriff#vier{
+        top: 14%;
+        left: 85%;
+    }
+  }
+
