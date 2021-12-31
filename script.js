@@ -401,16 +401,16 @@ function läuferÄndern(idName){
       document.getElementById('zuspiel').style.top="0%";
       document.getElementById('zuspiel').style.left="66%";
 
-      document.getElementById('außen1').style.top="22%";
-      document.getElementById('außen1').style.left="20%";
+      document.getElementById('außen1').style.top="44%";
+      document.getElementById('außen1').style.left="10%";
 
-      document.getElementById('mitte1').style.top="44%";
-      document.getElementById('mitte1').style.left="10%";
+      document.getElementById('mitte1').style.top="66%";
+      document.getElementById('mitte1').style.left="20%";
 
       document.getElementById('diagonal').style.top="88%";
       document.getElementById('diagonal').style.left="0%";
 
-      document.getElementById('außen2').style.top="66%";
+      document.getElementById('außen2').style.top="22%";
       document.getElementById('außen2').style.left="20%";
 
       document.getElementById('mitte2').style.top="10%";
