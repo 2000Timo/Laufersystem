@@ -51,8 +51,9 @@ auswahl.läufer:hover:not(auswahl.läufer.active){
 
 
 boden{
-    position: absolute;
-    bottom: -120px;
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
     left:0;
     width: 100%;
     background-color: black;

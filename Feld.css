@@ -4,8 +4,6 @@ feld{
     float: left;
     width: 60vw;
     height: 45vw;
-    margin-left: 19vw;
-    margin-right: auto;
     margin-bottom: 5vw;
 }
 
@@ -31,8 +29,8 @@ Linie.dreiMeter{
     feld{
         width: 90vw;
         height: 120vw;
-        margin-left: 5vw;
-        margin-top: 10vw;
+        margin-left: 3vw;
+        margin-top: 8vw;
     }
     feld > Linie.Netz{
         top: 30vw;
