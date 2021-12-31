@@ -378,31 +378,31 @@ function läuferÄndern(idName){
     }
     else if(idName == 'menüSieben'){
       läufer = 3;
-      document.getElementById('zuspiel').style.top="50%";
+      document.getElementById('zuspiel').style.top="70%";
       document.getElementById('zuspiel').style.left="66%";
 
-      document.getElementById('außen1').style.top="10%";
-      document.getElementById('außen1').style.left="66%";
+      document.getElementById('außen1').style.top="15%";
+      document.getElementById('außen1').style.left="20%";
 
-      document.getElementById('mitte1').style.top="44%";
+      document.getElementById('mitte1').style.top="42%";
       document.getElementById('mitte1').style.left="10%";
 
-      document.getElementById('diagonal').style.top="70%";
-      document.getElementById('diagonal').style.left="40%";
+      document.getElementById('diagonal').style.top="60%";
+      document.getElementById('diagonal').style.left="0%";
 
-      document.getElementById('außen2').style.top="88%";
-      document.getElementById('außen2').style.left="0%";
+      document.getElementById('außen2').style.top="72%";
+      document.getElementById('außen2').style.left="20%";
 
-      document.getElementById('mitte2').style.top="62%";
-      document.getElementById('mitte2').style.left="58%";
+      document.getElementById('mitte2').style.top="88%";
+      document.getElementById('mitte2').style.left="50%";
     }
     else if(idName == 'menüAcht'){
       läufer = 4;
-      document.getElementById('zuspiel').style.top="32%";
-      document.getElementById('zuspiel').style.left="60%";
+      document.getElementById('zuspiel').style.top="0%";
+      document.getElementById('zuspiel').style.left="66%";
 
-      document.getElementById('außen1').style.top="20%";
-      document.getElementById('außen1').style.left="40%";
+      document.getElementById('außen1').style.top="22%";
+      document.getElementById('außen1').style.left="20%";
 
       document.getElementById('mitte1').style.top="44%";
       document.getElementById('mitte1').style.left="10%";
@@ -410,30 +410,30 @@ function läuferÄndern(idName){
       document.getElementById('diagonal').style.top="88%";
       document.getElementById('diagonal').style.left="0%";
 
-      document.getElementById('außen2').style.top="56%";
-      document.getElementById('außen2').style.left="56%";
+      document.getElementById('außen2').style.top="66%";
+      document.getElementById('außen2').style.left="20%";
 
-      document.getElementById('mitte2').style.top="44%";
-      document.getElementById('mitte2').style.left="66%";
+      document.getElementById('mitte2').style.top="10%";
+      document.getElementById('mitte2').style.left="52%";
     }
     else if(idName == 'menüNeun'){
       läufer = 5;
       document.getElementById('zuspiel').style.top="30%";
-      document.getElementById('zuspiel').style.left="40%";
+      document.getElementById('zuspiel').style.left="52%";
 
-      document.getElementById('außen1').style.top="42%";
-      document.getElementById('außen1').style.left="31%";
+      document.getElementById('außen1').style.top="40%";
+      document.getElementById('außen1').style.left="10%";
 
-      document.getElementById('mitte1').style.top="88%";
-      document.getElementById('mitte1').style.left="0%";
+      document.getElementById('mitte1').style.top="66%";
+      document.getElementById('mitte1').style.left="20%";
 
       document.getElementById('diagonal').style.top="78%";
       document.getElementById('diagonal').style.left="66%";
 
-      document.getElementById('außen2').style.top="44%";
-      document.getElementById('außen2').style.left="58%";
+      document.getElementById('außen2').style.top="22%";
+      document.getElementById('außen2').style.left="22%";
 
-      document.getElementById('mitte2').style.top="32%";
+      document.getElementById('mitte2').style.top="10%";
       document.getElementById('mitte2').style.left="66%";
     }
     else if(idName == 'menüZehn'){
