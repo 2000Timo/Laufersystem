@@ -31,7 +31,7 @@ Linie.dreiMeter{
         width: 90vw;
         height: 120vw;
         margin-left: 5vw;
-        margin-top: 2vw;
+        margin-top: 10vw;
     }
     feld > Linie.Netz{
         top: 30vw;

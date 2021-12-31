@@ -9,20 +9,12 @@ var screenwidth;
 var mobile = false;
 
 
-
-function laufer(pos){
-    läufer = pos;
-    document.getElementById("test").innerHTML = "Läufer " + läufer;
-}
-
 function myFunction() {
   if (window.matchMedia(("max-width: 850px").matches)) { // If media query matches
     mobile = true;
-    alert("test");
     var y = document.getElementsByClassName("active läufer")[0].id;
     läuferÄndern(y);
   } else {
-    alert(window.matchMedia(("max-width: 850px")));
     mobile = false;
     var y = document.getElementsByClassName("active läufer")[0].id;
     läuferÄndern(y);
