@@ -7,57 +7,17 @@ spieler{
     background-color: rgb(116, 21, 21);
 }
 
-spieler > spielertext{
-    position: absolute;
-    top: 2vw;
-    left: 2vw;
-    text-align: center;
-    color: white;
-}
-
-spieler#zuspiel{
-    top: 78%;
-    left: 10%;
-    transition-duration: 2s;
-}
-
-spieler#außen1{
-    top: 78%;
-    left: 56%;
-    transition-duration: 2s;
-}
-
-spieler#mitte1{
-    top: 44%;
-    left: 56%;
-    transition-duration: 2s;
-}
-
-spieler#diagonal{
-    top: 10%;
-    left: 56%;
-    transition-duration: 2s;
-}
-
-spieler#außen2{
-    top: 10%;
-    left: 10%;
-    transition-duration: 2s;
-}
-
-spieler#mitte2{
-    top: 44%;
-    left: 10%;
-    transition-duration: 2s;
-}
 
 
-@media screen and (max-width: 850px) {
-    spieler{
-        width: 12%;
-        height: 9%;
+@media screen and (min-width: 850px) {
+    spieler > spielertext{
+        position: absolute;
+        top: 2vw;
+        left: 2vw;
+        text-align: center;
+        color: white;
     }
-
+    
     spieler#zuspiel{
         top: 78%;
         left: 10%;
@@ -91,6 +51,48 @@ spieler#mitte2{
     spieler#mitte2{
         top: 44%;
         left: 10%;
+        transition-duration: 2s;
+    }
+}
+@media screen and (max-width: 850px) {
+    spieler{
+        width: 12%;
+        height: 9%;
+    }
+
+    spieler#zuspiel{
+        left: 78%;
+        bottom: 10%;
+        transition-duration: 2s;
+    }
+    
+    spieler#außen1{
+        left: 78%;
+        bottom: 56%;
+        transition-duration: 2s;
+    }
+    
+    spieler#mitte1{
+        left: 44%;
+        bottom: 56%;
+        transition-duration: 2s;
+    }
+    
+    spieler#diagonal{
+        left: 10%;
+        bottom: 56%;
+        transition-duration: 2s;
+    }
+    
+    spieler#außen2{
+        left: 10%;
+        bottom: 10%;
+        transition-duration: 2s;
+    }
+    
+    spieler#mitte2{
+        left: 44%;
+        bottom: 10%;
         transition-duration: 2s;
     }
 
