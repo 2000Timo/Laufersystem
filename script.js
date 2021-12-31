@@ -16,13 +16,21 @@ function laufer(pos){
 }
 
 function myFunction() {
-    var x = document.getElementById("myTopnav");
-    if (x.className === "topnav") {
-      x.className += " responsive";
-    } else {
-      x.className = "topnav";
-    }
+  if (window.matchMedia(("max-width: 850px").matches)) { // If media query matches
+    mobile = true;
+    alert("test");
+    var y = document.getElementsByClassName("active läufer")[0].id;
+    läuferÄndern(y);
+  } else {
+    alert(window.matchMedia(("max-width: 850px")));
+    mobile = false;
+    var y = document.getElementsByClassName("active läufer")[0].id;
+    läuferÄndern(y);
+  }
 }
+
+window.addEventListener('click', myFunction())
+
 function screenSize(){
   screenwidth = window.innerWidth;
 }

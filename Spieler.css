@@ -58,44 +58,8 @@ spieler{
     spieler{
         width: 12%;
         height: 9%;
-    }
-
-    spieler#zuspiel{
-        left: 78%;
-        bottom: 10%;
         transition-duration: 2s;
     }
-    
-    spieler#außen1{
-        left: 78%;
-        bottom: 56%;
-        transition-duration: 2s;
-    }
-    
-    spieler#mitte1{
-        left: 44%;
-        bottom: 56%;
-        transition-duration: 2s;
-    }
-    
-    spieler#diagonal{
-        left: 10%;
-        bottom: 56%;
-        transition-duration: 2s;
-    }
-    
-    spieler#außen2{
-        left: 10%;
-        bottom: 10%;
-        transition-duration: 2s;
-    }
-    
-    spieler#mitte2{
-        left: 44%;
-        bottom: 10%;
-        transition-duration: 2s;
-    }
-
     spieler > spielertext{
         position: absolute;
         top: 4vw;
