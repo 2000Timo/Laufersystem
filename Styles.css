@@ -3,6 +3,15 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1{
+    width: 100%;
+    background-color: rgb(20, 20, 20);
+    color: white;
+    text-align: center;
+    margin:0;
+    font-size: 40px;
+}
+
 menü{
     width: 100%;
     position: relative;

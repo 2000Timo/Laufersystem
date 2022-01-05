@@ -1,0 +1,48 @@
+block{
+    width: 100%;
+    background-color: rgb(59, 59, 59);
+    float:left;
+    border-bottom: 5px solid rgb(20, 20, 20);
+    position: relative;
+}
+
+block > frage{
+    width: 40%;
+    float:left;
+    background-color: rgb(59, 59, 59);
+    color: white;
+    overflow-wrap: break-word;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+block > antwort{
+    overflow-wrap: break-word;
+    width: 60%;
+    float:left;
+    background-color: rgb(70, 190, 130);
+    color: rgb(20, 20, 20);
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+block > antwort > img{
+    position: relative;
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+    z-index: 1;
+}
+
+@media screen and (max-width:800px) {
+    block > frage{
+        width: 100%;
+    }
+    block > antwort{
+        width: 100%;
+    }
+}
