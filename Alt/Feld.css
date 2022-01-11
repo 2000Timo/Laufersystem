@@ -2,9 +2,10 @@ feld{
     background-color: white;
     position: relative;
     float: left;
-    width: 100%;
+    width: 66.66vw;
     height: 50vw;
     margin-top: 10px;
+    margin-left: 15vw ;
 }
 
 feld > Linie{
