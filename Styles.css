@@ -47,6 +47,7 @@ text{
 
 menü > auswahl:hover{
     opacity: 99%;
+    background-color: rgb(43, 255, 0);
 }
 
 @media screen and (max-width:1200px) {
