@@ -20,10 +20,11 @@ menü{
 menü > auswahl{
     position: relative;
     float: left;
-    width: 33.33%;
+    width: 33%;
     padding-bottom: 99vh;
     background-color: rgb(20, 20, 20);
     opacity: 80%;
+    transition-duration: 0.5s;
 }
 
 img{
@@ -33,6 +34,7 @@ img{
     object-fit: cover;
     height: 100vh;
     z-index: -1;
+    transition-duration: 0.5s;
 }
 
 text{
@@ -48,6 +50,11 @@ text{
 menü > auswahl:hover{
     opacity: 99%;
     background-color: rgb(43, 255, 0);
+    width: 50%;
+}
+
+menü:hover auswahl:not(:hover){
+    width: 25%;
 }
 
 @media screen and (max-width:1200px) {
@@ -58,4 +65,25 @@ menü > auswahl:hover{
     img{
         height: 33vh;
     }
+    menü > auswahl:hover{
+        opacity: 99%;
+        background-color: rgb(43, 255, 0);
+        width: 100%;
+        padding-bottom: 50vh;
+    }
+
+    menü:hover auswahl:not(:hover){
+        width: 100%;
+        padding-bottom: 25vh;
+    }
+
+    auswahl:hover > a >  img{
+        height: 50vh;
+    }
+
+    menü:hover auswahl:not(:hover) > a > img{
+        height: 25vh;
+    }
+
+ 
 }
