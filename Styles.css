@@ -20,7 +20,7 @@ menü{
 menü > auswahl{
     position: relative;
     float: left;
-    width: 33%;
+    width: 33.33%;
     padding-bottom: 99vh;
     background-color: rgb(20, 20, 20);
     opacity: 80%;
@@ -45,12 +45,19 @@ text{
   font-size: 18px;
   color: white;
   font-size: 80px;
+  transition-duration: 0.5s;
 }
 
 menü > auswahl:hover{
     opacity: 99%;
     background-color: rgb(43, 255, 0);
     width: 50%;
+}
+
+menü > auswahl:hover > a > text{
+    font-size: 150px;
+    color:rgb(170, 23, 48);
+    text-decoration: underline rgb(170, 23, 48);
 }
 
 menü:hover auswahl:not(:hover){
