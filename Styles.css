@@ -11,7 +11,6 @@ body{
 
 li{
     color: rgb(0, 0, 0);
-    
     padding: 10px 0;
     background-color: rgb(22, 52, 61);
     width: 100%;
@@ -72,7 +71,7 @@ loadbar{
     float: left;   
 }
 
-loadbar > progress{
+#progressbar{
     background-color: green;
     height: 20px;
     padding: 0;

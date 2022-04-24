@@ -95,12 +95,19 @@ function playAudio(){
 
 function addTime(){
     zeit += 1000;
+    resetProgressbar();
 }
 
 function progressbar(length){
-    //var lange = (length/100)*(zeit/1000) + '%';
-    var lange = 90 + '%';
+    var lange = (zeit/1000) + '%';
+    var zeitNeu = (zeit/1000) + "s";
     console.log(lange);
+    document.getElementById("progressbar").style.transition = zeitNeu;
     document.getElementById("progressbar").style.width = lange;
+}
+
+function resetProgressbar(){
+    document.getElementById("progressbar").style.transition = '0s';
+    document.getElementById("progressbar").style.width = 0 + 'px';
 }
 
