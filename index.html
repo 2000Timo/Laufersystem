@@ -1,13 +1,20 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <link rel="stylesheet" href="Styles.css">
+        <title>JS Test</title>
+        <link rel="stylesheet" href="styles.css">
     </head>
     <body>
-        <menü>
-            <auswahl id="eins"><a href="Alt/läufer.html"><img src="Läufer.png"><text>Läufer</text></a></auswahl>
-            <auswahl id="zwei"><a href="theorie.html"><img src="volleyball-laeufersystem-1-5-laeufer-1-1024x576.jpg"><text>Theorie</text></a></auswahl>
-            <auswahl id="drei"><a href="übung.html"><img src="302WSC-Volley-B.jpg"><text>Übung</text></a></auswahl>
-        </menü>
+        <p id="demo"></p>
+        <div class="inputLeiste">
+            <button onclick="addName()">Hinzufügen</button>
+            <button onclick="deleteName()" style="float: right" id="delete">Entfernen</button>
+        </div>
+        <p id="length" style="color:white"></p>
+        <button onclick="playAudio()">musik</button>
+        <button onclick="addTime()">next</button>
+        <p id="songlength" style="color:white"></p>
+        <loadbar><progress id="progressbar"></progress></loadbar>
+        <script src="script.js"></script>
     </body>
 </html>
